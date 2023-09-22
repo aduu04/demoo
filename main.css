@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: black;
+}
+
+.navbar {
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    max-width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar input[type=text] {
+    margin-left: 600px;
+    padding: 2px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+}
+
+.area {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.area h2 {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.area p {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(194, 183, 183);
+}
+
+.area img {
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+.back {
+    max-width: 700px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: black;
+}
+
+.back h2 {
+    text-align: center;
+}
+.offer  {
+    
+    padding-top: 75px;
+    max-width: 100%;
+    height: 150px;
+    margin-top: 80px;
+    background-color: black;  
+}
+.offer p{
+  
+    font-size: 50px;
+    text-align: center;
+    color: #ddd;
+}
+.btn{
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+}
+.btn button{
+    border-radius: 20px;
+    padding: 8px;
+    border: 2px solid gray;
+}
+.btn button:hover{
+    background-color: rgb(49, 45, 45);
+    color: aliceblue;
+    cursor: pointer;
+}
+.text-center {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+
+
+  .sidha ul { 
+    text-align: center;   
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0px;  
+    overflow: hidden;  
+  }  
+    
+  .sidha li { 
+    display: inline-block; 
+   
+  }  
+    
+  .sidha li a {  
+    color: black;
+    display: block;   
+   font-size:20px;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  }  
+  .active{  
+  background-color: gray;  
+  color: white;  
+  }  
+  .sidha li a:hover {  
+    background-color: black;  
+    color: white;  
+  }  
+
+ 
+
+  hr{
+    color: lightgray;
+    margin-top: 50px;
+  }
